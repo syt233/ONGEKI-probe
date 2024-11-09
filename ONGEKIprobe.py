@@ -6,8 +6,6 @@ import pandas as pd
 home_url = "https://u.otogame.net/api/game/ongeki/playlog"
 with open("Authorization.txt") as f:
     Authorization = f.read().strip()
-with open("Cookie.txt") as f:
-    Cookie = f.read().strip()
 
 headers = {
     "Authorization": Authorization,
